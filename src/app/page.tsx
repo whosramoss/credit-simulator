@@ -2,6 +2,7 @@
 
 import { Logo } from "@/shared/ui/logo";
 import { NavBar } from "@/shared/ui/navbar";
+import { ThemeToggle } from "@/shared/ui/theme-toggle";
 import React from "react";
 import { PiMoneyWavyDuotone } from "react-icons/pi";
 
@@ -12,7 +13,9 @@ export default function Home() {
                 <NavBar.Container>
                     <NavBar.Grid>
                         <Logo.Icon icon={PiMoneyWavyDuotone} />
-                        <NavBar.Actions>actions</NavBar.Actions>
+                        <NavBar.Actions>
+                            <ThemeToggle />
+                        </NavBar.Actions>
                     </NavBar.Grid>
                 </NavBar.Container>
             </NavBar.Section>
