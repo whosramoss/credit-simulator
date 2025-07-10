@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import type { Metadata } from "next";
 import { Questrial } from "next/font/google";
+import StyledComponentsTheme from "@/shared/theme/styled-components-theme";
 
 const fontQuestrial = Questrial({
     subsets: ["latin"],
@@ -16,7 +17,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html lang="en" suppressHydrationWarning>
-            <body className={fontQuestrial.className}>{children}</body>
+            <body className={fontQuestrial.className}>
+                <StyledComponentsTheme>{children}</StyledComponentsTheme>
+            </body>
         </html>
     );
 }
