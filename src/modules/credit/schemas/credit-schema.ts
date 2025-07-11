@@ -26,3 +26,11 @@ export const creditFormSchema = z.object({
 });
 
 export type CreditFormData = z.infer<typeof creditFormSchema>;
+
+export interface CreditDetails {
+    monthlyPayment: number;
+    monthlyRate: number;
+    totalAmount: number;
+    totalInterest: number;
+    interestRate: number;
+}
