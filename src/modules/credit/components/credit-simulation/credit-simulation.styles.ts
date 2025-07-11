@@ -5,3 +5,7 @@ export const Container = styled.div`
     margin-top: ${({ theme }) => theme.spacing[4]};
     margin-bottom: ${({ theme }) => theme.spacing[4]};
 `;
+
+export const ChartsContainer = styled.div`
+    margin-top: ${({ theme }) => theme.spacing[8]};
+`;
