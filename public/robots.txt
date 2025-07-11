@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://credit-simulator.vercel.app
+Host: https://credit-simulator-tawny.vercel.app
 
 # Sitemaps
-Sitemap: https://credit-simulator.vercel.app/sitemap.xml
+Sitemap: https://credit-simulator-tawny.vercel.app/sitemap.xml

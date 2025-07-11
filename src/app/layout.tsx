@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         type: "website",
         siteName: "Simulador de Empréstimo",
         locale: "pt_BR",
-        url: "https://credit-simulator.vercel.app",
+        url: "https://credit-simulator-tawny.vercel.app",
         title: "Simulador de Empréstimo",
         description: "Simule seu empréstimo de forma rápida e transparente",
         images: [
