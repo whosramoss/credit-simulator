@@ -1,0 +1,22 @@
+{
+    "short_name": "Simulador de Empréstimo",
+    "name": "Simulador de Empréstimo",
+    "description": "Simule seu empréstimo de forma rápida e transparente.",
+    "scope": "/",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
