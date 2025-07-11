@@ -34,3 +34,11 @@ export interface CreditDetails {
     totalInterest: number;
     interestRate: number;
 }
+
+export interface CreditAmortizationSchedule {
+    month: number;
+    installment: number;
+    interest: number;
+    principal: number;
+    remainingBalance: number;
+}
