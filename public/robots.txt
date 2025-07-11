@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://credit-simulator.vercel.app
+
+# Sitemaps
+Sitemap: https://credit-simulator.vercel.app/sitemap.xml
