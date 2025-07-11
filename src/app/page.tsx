@@ -1,5 +1,6 @@
 "use client";
 
+import CreditSimulation from "@/modules/credit/components/credit-simulation";
 import { FadeIn } from "@/shared/ui/fade-in";
 import { Hero } from "@/shared/ui/hero";
 import { Logo } from "@/shared/ui/logo";
@@ -43,7 +44,9 @@ export default function Home() {
                             </Hero.Description>
                         </FadeIn.Item>
                         <FadeIn.Item delay={0.5}>
-                            <Hero.Content>Conteudo</Hero.Content>
+                            <Hero.Content>
+                                <CreditSimulation />
+                            </Hero.Content>
                         </FadeIn.Item>
                     </Hero.Container>
                 </Hero.Root>
